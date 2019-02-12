@@ -63,7 +63,8 @@ body {
 }
 .middle {
   position: absolute;
-  top: 50%;
+  top: 25%;
+  left: 25%;
   transform: translateY(-50%);
   width: 100%;
   display: flex;
@@ -88,7 +89,7 @@ body {
 .middle {
   position: absolute;
   top: 25%;
-  left: 25%;
+  right: 50%;
   transform: translate(-25% -25%);
 }
 .image {
@@ -111,6 +112,7 @@ body {
   text-transform: uppercase;
   transform: translateY(20px);
   transition: 0.4s;
+  font-family: "montserrat";
 }
 .image:hover .image-content h1 {
   transform: translateY(0px);
