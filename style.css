@@ -214,11 +214,42 @@ body {
   position: absolute;
   top: 40%;
   left: 42%;
-  color: #3498db;
+  color: #fff;
   font-size: 40px;
   text-align: center;
   margin-top: 300px;
   text-transform: uppercase;
   font-family: "montserrat";
   font-weight: 700;
+}
+.numbers {
+  font-family: "montserrat";
+  position: absolute;
+  top: 95%;
+  left: 38%;
+  transform: translateY(-50%);
+}
+.counting-sec {
+  padding: 40px 0;
+  width: 100%;
+}
+.inner-width {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.col {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.col i {
+  font-size: 40px;
+  color: #3498db;
+}
+.num {
+  font-size: 40px;
+  margin: 20px 0;
 }
