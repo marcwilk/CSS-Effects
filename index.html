@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <div class="text middle">
+    <div class="animate middle">
       <span>M</span>
       <span class="hidden">A</span>
       <span class="hidden">R</span>
@@ -50,5 +50,21 @@
       <div class="bar bar7"></div>
       <div class="bar bar8"></div>
     </div>
+    <div id="text">
+
+    </div>
+    <script type="text/javascript">
+      let i=0, text
+      text = "Hello world"
+
+      function typing() {
+        if(i<text.length) {
+          document.getElementById("text").innerHTML += text.charAt(i)
+          i++
+          setTimeout(typing, 50)
+        }
+      }
+      typing()
+    </script>
   </body>
 </html>

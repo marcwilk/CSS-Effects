@@ -70,7 +70,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.text {
+.animate {
   color: #3498db;
   font-size: 50px;
   font-family: "montserrat";
@@ -82,7 +82,7 @@ body {
   opacity: 0;
   transition: 0.5s ease-in;
 }
-.text:hover .hidden {
+.animate:hover .hidden {
   opacity: 1;
   max-width: 1em;
 }
@@ -209,4 +209,16 @@ body {
     transform: scaleY(0.1);
     background: transparent;
   }
+}
+#text {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  color: #3498db;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 300px;
+  text-transform: uppercase;
+  font-family: "montserrat";
+  font-weight: 700;
 }
